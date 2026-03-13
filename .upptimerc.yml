@@ -4,8 +4,14 @@ repo: alpacon-status-dev
 sites:
   - name: AlpacaX Web
     url: https://staging.alpacax.com/
+    expectedStatusCodes:
+      - 200
+      - 403
   - name: Alpacon Docs
     url: https://docs.staging.alpacax.com/
+    expectedStatusCodes:
+      - 200
+      - 403
   - name: Alpacon Dev
     url: https://dev.alpacon.io/alpacax
   - name: Alpacon Dev API
