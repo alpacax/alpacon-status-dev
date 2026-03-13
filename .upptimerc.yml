@@ -24,6 +24,7 @@ sites:
     url: https://pay.staging.alpacax.com/api/
 
 status-website:
+  publish: true
   baseUrl: /
   name: Alpacon Status (Dev)
   introTitle: "**Alpacon** Dev/Staging 환경 상태 모니터링"
