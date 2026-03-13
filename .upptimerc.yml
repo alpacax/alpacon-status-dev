@@ -30,6 +30,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/logo.svg
   favicon: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/icon.svg
   faviconSvg: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/icon.svg
+  customHeadHtml: '<meta name="robots" content="noindex, nofollow">'
   introTitle: "**Alpacon** Dev/Staging Status Monitor"
   introMessage: Real-time status of AlpacaX dev/staging services.
   maxPastIncidents: 10
