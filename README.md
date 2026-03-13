@@ -28,12 +28,6 @@ With [Upptime](https://upptime.js.org), you can get your own unlimited and free 
 
 [**Visit our status website →**](https://alpacax.github.io/alpacon-status-dev)
 
-## Secrets
-
-| Secret Name | Description                                                         | Source                                                |
-| ----------- | ------------------------------------------------------------------- | ----------------------------------------------------- |
-| `GH_PAT`    | Upptime이 repo에 상태 데이터를 커밋하고 Issues를 생성하기 위한 토큰 | Fine-grained PAT `UPPTIME_STATUS_TOKEN` (alpacax org) |
-
 ## 📄 License
 
 - Powered by: [Upptime](https://github.com/upptime/upptime)
