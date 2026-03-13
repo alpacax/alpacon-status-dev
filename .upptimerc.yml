@@ -26,7 +26,7 @@ sites:
 status-website:
   publish: true
   baseUrl: /alpacon-status-dev
-  name: Alpacon Status (Dev)
+  name: ""
   logoUrl: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/logo.svg
   favicon: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/icon.svg
   faviconSvg: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/icon.svg
