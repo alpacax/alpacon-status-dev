@@ -25,7 +25,7 @@ sites:
 
 status-website:
   publish: true
-  baseUrl: /alpacon-status-dev
+  cname: status.staging.alpacax.com
   name: ""
   logoUrl: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/logo.svg
   favicon: https://raw.githubusercontent.com/alpacax/alpacon-status-dev/master/assets/icon.svg
@@ -36,6 +36,6 @@ status-website:
   maxPastIncidents: 10
   navbar:
     - title: Status
-      href: /alpacon-status-dev
+      href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
