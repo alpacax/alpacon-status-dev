@@ -35,6 +35,6 @@ status-website:
   maxPastIncidents: 10
   navbar:
     - title: Status
-      href: /
+      href: /alpacon-status-dev
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
