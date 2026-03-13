@@ -1,36 +1,29 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: alpacax
+repo: alpacon-status-dev
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: AlpacaX Web
+    url: https://staging.alpacax.com/
+  - name: Alpacon Docs
+    url: https://docs.staging.alpacax.com/
+  - name: Alpacon Dev
+    url: https://dev.alpacon.io/alpacax
+  - name: Alpacon Dev API
+    url: https://dev.alpacon.io/api/
+  - name: Account Service
+    url: https://account.staging.alpacax.com
+  - name: Payment Web
+    url: https://pay.staging.alpacax.com/
+  - name: Payment API
+    url: https://pay.staging.alpacax.com/api/
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /alpacon-status-dev
+  name: Alpacon Status (Dev)
+  introTitle: "**Alpacon** Dev/Staging 환경 상태 모니터링"
+  introMessage: AlpacaX dev/staging 서비스의 실시간 상태를 확인할 수 있습니다.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
