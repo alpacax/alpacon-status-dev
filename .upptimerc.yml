@@ -27,8 +27,8 @@ status-website:
   publish: true
   baseUrl: /alpacon-status-dev
   name: Alpacon Status (Dev)
-  introTitle: "**Alpacon** Dev/Staging 환경 상태 모니터링"
-  introMessage: AlpacaX dev/staging 서비스의 실시간 상태를 확인할 수 있습니다.
+  introTitle: "**Alpacon** Dev/Staging Status Monitor"
+  introMessage: Real-time status of AlpacaX dev/staging services.
   maxPastIncidents: 10
   navbar:
     - title: Status
