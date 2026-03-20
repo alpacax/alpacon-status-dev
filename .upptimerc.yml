@@ -3,7 +3,7 @@ repo: alpacon-status-dev
 
 sites:
   - name: Alpacon
-    url: https://dev.alpacon.io/alpacax
+    url: https://dev.alpacon.io/
   - name: Alpacon API
     url: https://dev.alpacon.io/api/
   - name: Alpacon Docs
