@@ -2,26 +2,26 @@ owner: alpacax
 repo: alpacon-status-dev
 
 sites:
-  - name: AlpacaX Web
-    url: https://staging.alpacax.com/
-    expectedStatusCodes:
-      - 200
-      - 403
+  - name: Alpacon
+    url: https://dev.alpacon.io/alpacax
+  - name: Alpacon API
+    url: https://dev.alpacon.io/api/
   - name: Alpacon Docs
     url: https://docs.staging.alpacax.com/
     expectedStatusCodes:
       - 200
       - 403
-  - name: Alpacon Dev
-    url: https://dev.alpacon.io/alpacax
-  - name: Alpacon Dev API
-    url: https://dev.alpacon.io/api/
-  - name: Account Service
+  - name: Account
     url: https://account.staging.alpacax.com
-  - name: Payment Web
+  - name: Payment
     url: https://pay.staging.alpacax.com/
   - name: Payment API
     url: https://pay.staging.alpacax.com/api/
+  - name: AlpacaX
+    url: https://staging.alpacax.com/
+    expectedStatusCodes:
+      - 200
+      - 403
 
 status-website:
   publish: true
