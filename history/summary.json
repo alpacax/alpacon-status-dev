@@ -24,18 +24,20 @@
     "url": "https://dev.alpacon.io/api/",
     "icon": "https://icons.duckduckgo.com/ip3/dev.alpacon.io.ico",
     "slug": "alpacon-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 99,
-    "timeDay": 51,
-    "timeWeek": 110,
-    "timeMonth": 99,
-    "timeYear": 99,
-    "dailyMinutesDown": {}
+    "time": 96,
+    "timeDay": 36,
+    "timeWeek": 98,
+    "timeMonth": 96,
+    "timeYear": 96,
+    "dailyMinutesDown": {
+      "2026-04-15": 0
+    }
   },
   {
     "name": "Alpacon Docs",
