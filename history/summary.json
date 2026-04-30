@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.95%",
-    "time": 918,
-    "timeDay": 1105,
-    "timeWeek": 517,
-    "timeMonth": 916,
-    "timeYear": 918,
+    "time": 920,
+    "timeDay": 990,
+    "timeWeek": 572,
+    "timeMonth": 868,
+    "timeYear": 920,
     "dailyMinutesDown": {
       "2026-04-13": 31
     }
@@ -25,16 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/dev.alpacon.io.ico",
     "slug": "alpacon-api",
     "status": "up",
-    "uptime": "99.75%",
+    "uptime": "99.76%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.67%",
-    "uptimeYear": "99.75%",
-    "time": 357,
+    "uptimeYear": "99.76%",
+    "time": 352,
     "timeDay": 121,
-    "timeWeek": 210,
+    "timeWeek": 217,
     "timeMonth": 454,
-    "timeYear": 357,
+    "timeYear": 352,
     "dailyMinutesDown": {
       "2026-04-16": 62,
       "2026-04-15": 80
@@ -46,16 +46,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/docs.staging.alpacax.com.ico",
     "slug": "alpacon-docs",
     "status": "up",
-    "uptime": "99.82%",
+    "uptime": "99.83%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.77%",
-    "uptimeYear": "99.82%",
-    "time": 687,
-    "timeDay": 648,
-    "timeWeek": 585,
-    "timeMonth": 684,
-    "timeYear": 687,
+    "uptimeYear": "99.83%",
+    "time": 688,
+    "timeDay": 819,
+    "timeWeek": 608,
+    "timeMonth": 685,
+    "timeYear": 688,
     "dailyMinutesDown": {
       "2026-04-19": 100,
       "2026-03-13": 18
@@ -72,11 +72,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.77%",
     "uptimeYear": "99.83%",
-    "time": 850,
-    "timeDay": 1027,
-    "timeWeek": 758,
-    "timeMonth": 838,
-    "timeYear": 850,
+    "time": 851,
+    "timeDay": 924,
+    "timeWeek": 775,
+    "timeMonth": 835,
+    "timeYear": 851,
     "dailyMinutesDown": {
       "2026-04-19": 100
     }
@@ -92,11 +92,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.77%",
     "uptimeYear": "99.83%",
-    "time": 829,
-    "timeDay": 1069,
-    "timeWeek": 728,
+    "time": 831,
+    "timeDay": 914,
+    "timeWeek": 750,
     "timeMonth": 820,
-    "timeYear": 829,
+    "timeYear": 831,
     "dailyMinutesDown": {
       "2026-04-19": 100
     }
@@ -113,8 +113,8 @@
     "uptimeMonth": "99.77%",
     "uptimeYear": "99.85%",
     "time": 176,
-    "timeDay": 196,
-    "timeWeek": 147,
+    "timeDay": 193,
+    "timeWeek": 154,
     "timeMonth": 180,
     "timeYear": 176,
     "dailyMinutesDown": {
@@ -132,11 +132,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.77%",
     "uptimeYear": "99.83%",
-    "time": 575,
-    "timeDay": 581,
-    "timeWeek": 477,
+    "time": 577,
+    "timeDay": 688,
+    "timeWeek": 510,
     "timeMonth": 571,
-    "timeYear": 575,
+    "timeYear": 577,
     "dailyMinutesDown": {
       "2026-04-19": 100
     }
