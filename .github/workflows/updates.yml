@@ -26,12 +26,20 @@ jobs:
     name: Deploy updates
     runs-on: ubuntu-latest
     steps:
+      - name: Generate App write token
+        id: write-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.UPPTIME_APP_ID }}
+          private-key: ${{ secrets.UPPTIME_PRIVATE_KEY }}
+          permission-contents: write
+          permission-issues: write
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-          token: ${{ secrets.GH_PAT || github.token }}
+          token: ${{ steps.write-token.outputs.token }}
       - name: Update code
         uses: upptime/updates@master
         env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+          GH_PAT: ${{ steps.write-token.outputs.token }}
