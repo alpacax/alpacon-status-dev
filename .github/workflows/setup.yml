@@ -38,12 +38,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ steps.app-token.outputs.token }}
-      - name: Update template
-        uses: upptime/uptime-monitor@v1.41.3
-        with:
-          command: "update-template"
-        env:
-          GH_PAT: ${{ steps.app-token.outputs.token }}
       - name: Update response time
         uses: upptime/uptime-monitor@v1.41.3
         with:
