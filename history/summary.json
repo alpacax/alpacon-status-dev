@@ -4,11 +4,11 @@
     "url": "https://dev.alpacon.io/",
     "icon": "https://icons.duckduckgo.com/ip3/dev.alpacon.io.ico",
     "slug": "alpacon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.65%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.97%",
     "time": 1024,
     "timeDay": 1660,
@@ -16,6 +16,7 @@
     "timeMonth": 1200,
     "timeYear": 1024,
     "dailyMinutesDown": {
+      "2026-06-02": 5,
       "2026-04-13": 31
     }
   },
@@ -24,9 +25,9 @@
     "url": "https://dev.alpacon.io/api/",
     "icon": "https://icons.duckduckgo.com/ip3/dev.alpacon.io.ico",
     "slug": "alpacon-api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.87%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.87%",
@@ -36,6 +37,7 @@
     "timeMonth": 306,
     "timeYear": 327,
     "dailyMinutesDown": {
+      "2026-06-02": 0,
       "2026-04-16": 62,
       "2026-04-15": 80
     }
