@@ -6,7 +6,7 @@
 # Your changes will be overwritten when the Upptime template updates (by default, weekly)
 # Instead, change .upptimerc.yml configuration and the workflows will be generated accordingly.
 #
-# 🔼 Upptime @v1.41.3
+# 🔼 Upptime @v1.42.5
 # GitHub-powered open-source uptime monitor and status page by Anand Chowdhary
 
 # * Source: https://github.com/upptime/upptime
@@ -22,6 +22,9 @@ on:
   repository_dispatch:
     types: [setup]
   workflow_dispatch:
+concurrency:
+  group: ${{ github.repository }}-${{ github.head_ref || github.ref_name }}-upptime
+  cancel-in-progress: false
 jobs:
   release:
     name: Setup Upptime
@@ -29,32 +32,32 @@ jobs:
     steps:
       - name: Generate App write token
         id: write-token
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.UPPTIME_APP_ID }}
+          client-id: ${{ secrets.UPPTIME_APP_CLIENT_ID }}
           private-key: ${{ secrets.UPPTIME_PRIVATE_KEY }}
           permission-contents: write
           permission-issues: write
       - name: Generate App dispatch token
         id: dispatch-token
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.UPPTIME_APP_ID }}
+          client-id: ${{ secrets.UPPTIME_APP_CLIENT_ID }}
           private-key: ${{ secrets.UPPTIME_PRIVATE_KEY }}
           permission-actions: write
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.write-token.outputs.token }}
       - name: Update response time
-        uses: upptime/uptime-monitor@v1.41.3
+        uses: upptime/uptime-monitor@v1.42.5
         with:
           command: "response-time"
         env:
           GH_PAT: ${{ steps.write-token.outputs.token }}
       - name: Update summary in README
-        uses: upptime/uptime-monitor@v1.41.3
+        uses: upptime/uptime-monitor@v1.42.5
         with:
           command: "readme"
         env:
@@ -65,7 +68,7 @@ jobs:
           workflow: Graphs CI
           token: ${{ steps.dispatch-token.outputs.token }}
       - name: Generate site
-        uses: upptime/uptime-monitor@v1.41.3
+        uses: upptime/uptime-monitor@v1.42.5
         with:
           command: "site"
         env:
