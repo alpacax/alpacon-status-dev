@@ -6,6 +6,8 @@ sites:
     url: https://dev.alpacon.io/
   - name: Alpacon API
     url: https://dev.alpacon.io/api/
+  - name: Alpacon AI
+    url: https://alpacon.ai/health/deep
   - name: Alpacon Docs
     url: https://docs.staging.alpacax.com/
     expectedStatusCodes:

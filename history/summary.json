@@ -43,6 +43,24 @@
     }
   },
   {
+    "name": "Alpacon AI",
+    "url": "https://alpacon.ai/health/deep",
+    "icon": "https://icons.duckduckgo.com/ip3/alpacon.ai.ico",
+    "slug": "alpacon-ai",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
+  },
+  {
     "name": "Alpacon Docs",
     "url": "https://docs.staging.alpacax.com/",
     "icon": "https://icons.duckduckgo.com/ip3/docs.staging.alpacax.com.ico",
