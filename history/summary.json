@@ -47,9 +47,9 @@
     "url": "https://alpacon.ai/health/deep",
     "icon": "https://icons.duckduckgo.com/ip3/alpacon.ai.ico",
     "slug": "alpacon-ai",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -58,7 +58,9 @@
     "timeWeek": 873,
     "timeMonth": 966,
     "timeYear": 966,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-12": 0
+    }
   },
   {
     "name": "Alpacon Docs",
