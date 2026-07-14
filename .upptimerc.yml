@@ -14,7 +14,7 @@ sites:
       - 200
       - 403
   - name: Account
-    url: https://account.staging.alpacax.com
+    url: https://account.staging.alpacax.com/health
   - name: Payment
     url: https://pay.staging.alpacax.com/
   - name: Payment API
