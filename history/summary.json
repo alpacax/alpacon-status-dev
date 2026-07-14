@@ -106,7 +106,7 @@
   },
   {
     "name": "Payment",
-    "url": "https://pay.staging.alpacax.com/",
+    "url": "https://pay.staging.alpacax.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/pay.staging.alpacax.com.ico",
     "slug": "payment",
     "status": "up",
