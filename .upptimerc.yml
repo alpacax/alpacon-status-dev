@@ -16,7 +16,7 @@ sites:
   - name: Account
     url: https://account.staging.alpacax.com/health
   - name: Payment
-    url: https://pay.staging.alpacax.com/
+    url: https://pay.staging.alpacax.com/health
   - name: Payment API
     url: https://pay.staging.alpacax.com/api/
   - name: AlpacaX
