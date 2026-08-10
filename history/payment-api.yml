@@ -1,7 +1,7 @@
 url: https://pay.staging.alpacax.com/api/
-status: up
-code: 200
-responseTime: 1074
-lastUpdated: 2026-08-09T23:10:20.544Z
+status: down
+code: 503
+responseTime: 419
+lastUpdated: 2026-08-10T11:33:24.902Z
 startTime: 2026-03-13T04:43:16.569Z
 generator: Upptime <https://github.com/upptime/upptime>
