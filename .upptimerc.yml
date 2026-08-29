@@ -8,22 +8,12 @@ sites:
     url: https://dev.alpacon.io/api/
   - name: Alpacon AI
     url: https://alpacon.ai/health/deep
-  - name: Alpacon Docs
-    url: https://docs.staging.alpacax.com/
-    expectedStatusCodes:
-      - 200
-      - 403
   - name: Account
     url: https://account.staging.alpacax.com/health
   - name: Payment
     url: https://pay.staging.alpacax.com/health
   - name: Payment API
     url: https://pay.staging.alpacax.com/api/
-  - name: AlpacaX
-    url: https://staging.alpacax.com/
-    expectedStatusCodes:
-      - 200
-      - 403
 
 status-website:
   publish: true
