@@ -6,11 +6,6 @@ sites:
     url: https://dev.alpacon.io/
   - name: Alpacon API
     url: https://dev.alpacon.io/api/
-  - name: Alpacon Docs
-    url: https://docs.staging.alpacax.com/
-    expectedStatusCodes:
-      - 200
-      - 403
   - name: Account
     url: https://account.staging.alpacax.com
   - name: Payment
