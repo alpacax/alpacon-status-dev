@@ -110,21 +110,21 @@
     "url": "https://pay.staging.alpacax.com/api/",
     "icon": "https://icons.duckduckgo.com/ip3/pay.staging.alpacax.com.ico",
     "slug": "payment-api",
-    "status": "down",
-    "uptime": "99.94%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.85%",
-    "uptimeYear": "99.94%",
+    "status": "up",
+    "uptime": "99.92%",
+    "uptimeDay": "97.65%",
+    "uptimeWeek": "99.66%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.92%",
     "time": 411,
-    "timeDay": 453,
-    "timeWeek": 613,
-    "timeMonth": 603,
+    "timeDay": 404,
+    "timeWeek": 579,
+    "timeMonth": 595,
     "timeYear": 411,
     "dailyMinutesDown": {
       "2026-04-19": 101,
       "2026-08-10": 65,
-      "2026-09-09": 0
+      "2026-09-09": 34
     }
   }
 ]
